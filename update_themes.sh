@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 # Atualiza a identidade visual Solve4Me no Issabel4Me usando o repositório GitHub.
 # Atualiza somente login.tpl, _menu.tpl, custom.css e solve4me_login.png.
-# Não altera a integração Genesys/OAuth nem outros arquivos do servidor.
 
 set -Eeuo pipefail
 
