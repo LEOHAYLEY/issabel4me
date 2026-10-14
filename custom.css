@@ -1,0 +1,193 @@
+/**
+ *
+ * Apply Here your Custom CSS
+ *
+*/
+
+body {
+	
+}
+/* ==================================================
+   ISSABEL4ME - IDENTIDADE VISUAL
+   Paleta: azul-marinho, azul e branco
+   ================================================== */
+
+/* Menu lateral */
+.page-container .sidebar-menu {
+    background: #081226 !important;
+    color: #d5deec !important;
+}
+
+/* Área do logotipo */
+.page-container .sidebar-menu .logo-env {
+    background: #081226 !important;
+}
+
+/* Links do menu */
+.page-container .sidebar-menu #main-menu li a {
+    color: #d5deec !important;
+}
+
+/* Hover dos itens */
+.page-container .sidebar-menu #main-menu li a:hover {
+    background-color: #142747 !important;
+    color: #ffffff !important;
+}
+
+/* Item selecionado */
+.page-container .sidebar-menu #main-menu li.active > a {
+    background-color: #0055ff !important;
+    color: #ffffff !important;
+}
+
+/* Submenus */
+.page-container .sidebar-menu #main-menu li ul {
+    background-color: #0c1930 !important;
+}
+
+.page-container .sidebar-menu #main-menu li ul > li > a:hover {
+    background-color: #142747 !important;
+    color: #ffffff !important;
+}
+
+/* Cabeçalho superior */
+.main-content > div[style*="height:83px"] {
+    background-color: #081226 !important;
+}
+
+/* Caminho de navegação */
+.main-content .breadcrumb {
+    background-color: #f2f5fa;
+}
+
+.main-content .breadcrumb li,
+.main-content .breadcrumb li a {
+    color: #34445c;
+}
+
+.main-content .breadcrumb li.active {
+    color: #0055ff;
+}
+
+/* Transição discreta nos itens do menu */
+.page-container .sidebar-menu #main-menu li a {
+    transition: background-color 180ms ease, color 180ms ease;
+}
+
+
+/* ===== SOLVE4ME - PADRONIZACAO COMPLETA DO MENU ===== */
+
+.page-container .sidebar-menu,
+.page-container .sidebar-menu .sidebar-menu-inner,
+.page-container .sidebar-menu .logo-env,
+.page-container .sidebar-menu #main-menu {
+    background: #081226 !important;
+}
+
+/* Todos os níveis do menu */
+.page-container .sidebar-menu #main-menu li,
+.page-container .sidebar-menu #main-menu li ul,
+.page-container .sidebar-menu #main-menu li ul li {
+    background-color: #081226 !important;
+}
+
+/* Textos e ícones */
+.page-container .sidebar-menu #main-menu li a,
+.page-container .sidebar-menu #main-menu li a span,
+.page-container .sidebar-menu #main-menu li a i,
+.page-container .sidebar-menu #main-menu li a .title {
+    color: #D5DEEC !important;
+}
+
+/* Passagem do mouse */
+.page-container .sidebar-menu #main-menu li a:hover,
+.page-container .sidebar-menu #main-menu li:hover > a {
+    background-color: #142747 !important;
+    color: #FFFFFF !important;
+}
+
+/* Item ativo e submenu ativo */
+.page-container .sidebar-menu #main-menu li.active > a,
+.page-container .sidebar-menu #main-menu li.active > a span,
+.page-container .sidebar-menu #main-menu li.active > a i,
+.page-container .sidebar-menu #main-menu li ul li.active > a {
+    background-color: #0055FF !important;
+    color: #FFFFFF !important;
+}
+
+/* Separadores e títulos de seção */
+.page-container .sidebar-menu #main-menu li.has-sub > a,
+.page-container .sidebar-menu #main-menu li.root-level > a {
+    border-color: #1B2B45 !important;
+}
+
+/* Cabeçalho do menu */
+.page-container .sidebar-menu .logo-env {
+    border-bottom-color: #1B2B45 !important;
+}
+
+/* Cabeçalho superior */
+.main-content > div[style*="height:83px"] {
+    background-color: #081226 !important;
+}
+
+
+/* SOLVE4ME - remover roxo dos menus expandidos */
+.page-container .sidebar-menu #main-menu li.open,
+.page-container .sidebar-menu #main-menu li.open > a,
+.page-container .sidebar-menu #main-menu li.open > ul,
+.page-container .sidebar-menu #main-menu li.open > ul > li,
+.page-container .sidebar-menu #main-menu li.open > ul > li > a,
+.page-container .sidebar-menu #main-menu li.expanded,
+.page-container .sidebar-menu #main-menu li.expanded > a,
+.page-container .sidebar-menu #main-menu li.expanded > ul,
+.page-container .sidebar-menu #main-menu li.visible > ul {
+    background-color: #081226 !important;
+    background-image: none !important;
+}
+
+/* Texto e ícones dos submenus expandidos */
+.page-container .sidebar-menu #main-menu li.open > a,
+.page-container .sidebar-menu #main-menu li.open > ul > li > a,
+.page-container .sidebar-menu #main-menu li.expanded > a {
+    color: #D5DEEC !important;
+}
+
+/* Hover dentro dos submenus */
+.page-container .sidebar-menu #main-menu li.open > ul > li > a:hover,
+.page-container .sidebar-menu #main-menu li.expanded > ul > li > a:hover {
+    background-color: #142747 !important;
+    color: #FFFFFF !important;
+}
+
+/* Preservar o azul do item selecionado */
+.page-container .sidebar-menu #main-menu li.open > ul > li.active > a,
+.page-container .sidebar-menu #main-menu li.expanded > ul > li.active > a {
+    background-color: #0055FF !important;
+    color: #FFFFFF !important;
+}
+
+
+/* SOLVE4ME - corrigir fundo roxo dos submenus */
+.page-container .sidebar-menu #main-menu li.active > ul > li > a,
+.page-container .sidebar-menu #main-menu li.active > ul > li > a:focus,
+.page-container .sidebar-menu #main-menu li.active > ul > li > a:visited {
+    background: #081226 !important;
+    background-image: none !important;
+    color: #D5DEEC !important;
+}
+
+/* Hover dos submenus */
+.page-container .sidebar-menu #main-menu li.active > ul > li > a:hover {
+    background: #142747 !important;
+    background-image: none !important;
+    color: #FFFFFF !important;
+}
+
+/* Item selecionado */
+.page-container .sidebar-menu #main-menu li.active > ul > li.active > a {
+    background: #0055FF !important;
+    background-image: none !important;
+    color: #FFFFFF !important;
+}
+
