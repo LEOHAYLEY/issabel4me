@@ -3,3 +3,7 @@ curl -fsSL \
   -o /usr/local/sbin/update_themes.sh
 
 chmod 750 /usr/local/sbin/update_themes.sh
+
+
+
+/usr/local/sbin/update_themes.sh --dry-run
